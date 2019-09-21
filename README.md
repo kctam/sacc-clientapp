@@ -9,13 +9,18 @@ cd fabric-samples
 git clone https://github.com/kctam/sacc-clientapp.git
 ```
 
-## Step 3: Use both start.sh to start the *Basic Network* with channel *mychannel* and chaincode *sacc*.
+## Step 3: install the modules
 ```
 cd sacc-clientapp
+npm install
+```
+
+## Step 4: Use both start.sh to start the *Basic Network* with channel *mychannel* and chaincode *sacc*.
+```
 ./start.sh
 ```
 
-## Step 4: The script is used with arguments
+## Step 5: The script is used with arguments
 
 ### to get the value of "a"
 ```
@@ -27,7 +32,7 @@ node get.sh a
 node set.sh a 100
 ```
 
-## Step 5: To clean up everything.
+## Step 6: To clean up everything.
 ```
 ./cleanup.sh
 ```
