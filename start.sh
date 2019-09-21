@@ -1,3 +1,4 @@
+set -ev
 cd ../basic-network
 ./start.sh
 
